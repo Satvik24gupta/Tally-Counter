@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Preahvihear', sans-serif;
+    font-family: 'Roboto Mono', monospace; */
+
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.container{
+    background-color:rgba(228, 146, 13, 0.647);
+    display: flex;
+    justify-content: center;
+    /* margin:auto; */
+    justify-content: center;
+    /* align-items: center; */
+    margin:10px;
+    /* height: 100vh; */
+    border: 2px solid black;
+    padding: 25px;
+    /* width: 30%; */
+}
+
+.Value-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Value-container input{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Value{
+    /* width:50%; */
+    /* background-color: red; */
+    font-size:100px;
+    width: 100%;
+    /* margin: 50px; */
+    border: 1px solid black;
+    margin-top:10px ;
+}
+.buttons{
+    font-size: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttons button{
+    cursor: pointer;
+    background-color: aqua;
+    background-color:rgb(244, 241, 185);
+
+    color: rgb(7, 33, 126);
+    border-radius: 50px;
+    display:flex;
+    width: 200px;
+    margin: 20px;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    /* padding: 50px; */
+}
+
+/* .fa-rotate-left{
+    
+} */
