@@ -30,7 +30,7 @@ function restart(){
 }
 
 document.addEventListener('keypress',function (e){
-    if(e.key=='+' || e.key==' '){
+    if(e.key=='+' || e.key==' ' || e.key=='='){
         increase();
         
     }
